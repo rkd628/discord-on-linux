@@ -1,0 +1,43 @@
+#!/bin/bash
+
+# The MIT License (MIT)
+#
+# Copyright (c) 2024 seokil kang (seokil.kang628@gmail.com)
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+# Discord on Linux is a terrible experience.
+# It's a hassle to have to reinstall every time there's a new version.
+# This script will automatically download and install any updates if they are available.
+
+DISCORD_URL="https://discord.com/api/download?platform=linux&format=deb"
+
+CURRENT_VERSION=$(dpkg-query -W -f='${Version}' discord 2>/dev/null || echo "0")
+
+LATEST_VERSION=$(curl -sI "$DISCORD_URL" | grep -i "location" | sed -E 's/.*discord-([0-9]+\.[0-9]+\.[0-9]+)\.deb.*/\1/')
+
+echo "current : $CURRENT_VERSION, latest : $LATEST_VERSION"
+
+if [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
+    echo "A new Discord is avaliable. Starting updte..."
+    
+    TMP_DIR=$(mktemp -d)
+    
+    wget "$DISCORD_URL" -O "$TMP_DIR/discord.deb"
+    
+    sudo dpkg -i "$TMP_DIR/discord.deb"
+    
+    # sudo apt-get install -f -y
+    
+    rm -rf "$TMP_DIR"
+    
+    echo "Discord has been successfully updated."
+else
+    echo "Discord is already up to date."
+fi
+
+discord 

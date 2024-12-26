@@ -1,0 +1,132 @@
+discord-on-linux (1.1.4.1~jammy) jammy; urgency=medium
+
+  * Rebuilt for Ubuntu 22.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 26 Dec 2024 10:57:23 +0900
+
+discord-on-linux (1.1.4~noble) noble; urgency=medium
+
+  * Initial release for Ubuntu 24.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 26 Dec 2024 10:57:22 +0900
+
+discord-on-linux (1.1.4~jammy) jammy; urgency=medium
+
+  * Rebuilt for Ubuntu 22.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 26 Dec 2024 10:57:21 +0900
+
+discord-on-linux (1.1.4~focal) focal; urgency=medium
+
+  * Rebuilt for Ubuntu 20.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 26 Dec 2024 10:57:20 +0900
+
+discord-on-linux (1.1.4~bionic) bionic; urgency=medium
+
+  * Rebuilt for Ubuntu 18.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 26 Dec 2024 10:57:19 +0900
+
+discord-on-linux (1.1.4~trusty) trusty; urgency=medium
+
+  * Rebuilt for Ubuntu 14.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 23:37:22 +0900
+
+
+discord-on-linux (1.1.4~xenial) xenial; urgency=medium
+
+  * Rebuilt for Ubuntu 16.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 23:37:21 +0900
+
+discord-on-linux (1.1.3~bionic) bionic; urgency=medium
+
+  * Rebuilt for Ubuntu 18.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 10:57:19 +0900
+
+discord-on-linux (1.1.3~jammy) jammy; urgency=medium
+
+  * Rebuilt for Ubuntu 22.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 10:57:18 +0900
+
+discord-on-linux (1.1.3~noble) noble; urgency=medium
+
+  * Initial release for Ubuntu 24.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 10:57:17 +0900
+
+discord-on-linux (1.1.3~focal) focal; urgency=medium
+
+  * Rebuilt for Ubuntu 20.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 01:32:20 +0900
+
+discord-on-linux (1.1.2~focal) focal; urgency=medium
+
+  * Rebuilt for Ubuntu 20.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 25 Dec 2024 01:32:19 +0900
+
+discord-on-linux (1.1.1~trusty) trusty; urgency=medium
+
+  * Rebuilt for Ubuntu 14.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:22 +0900
+
+discord-on-linux (1.1.1~xenial) xenial; urgency=medium
+
+  * Rebuilt for Ubuntu 16.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:21 +0900
+
+discord-on-linux (1.1~bionic) bionic; urgency=medium
+
+  * Rebuilt for Ubuntu 18.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:20 +0900
+
+discord-on-linux (1.1~focal) focal; urgency=medium
+
+  * Rebuilt for Ubuntu 20.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:19 +0900
+
+discord-on-linux (1.1~jammy) jammy; urgency=medium
+
+  * Rebuilt for Ubuntu 22.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:18 +0900
+
+discord-on-linux (1.1~noble) noble; urgency=medium
+
+  * Initial release for Ubuntu 24.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:17 +0900
+
+discord-on-linux (1.0~bionic) bionic; urgency=medium
+
+  * Rebuilt for Ubuntu 18.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:20 +0900
+
+discord-on-linux (1.0~focal) focal; urgency=medium
+
+  * Rebuilt for Ubuntu 20.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:19 +0900
+
+discord-on-linux (1.0~jammy) jammy; urgency=medium
+
+  * Rebuilt for Ubuntu 22.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:18 +0900
+
+discord-on-linux (1.0~noble) noble; urgency=medium
+
+  * Initial release for Ubuntu 24.04
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Mon, 23 Dec 2024 23:37:17 +0900

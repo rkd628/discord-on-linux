@@ -1,0 +1,10 @@
+Source: discord-on-linux
+Section: utils
+Priority: optional
+Build-Depends: debhelper (>=9)
+Maintainer: seokil kang <seokil.kang628@gmail.com>
+
+Package: discord-on-linux
+Architecture: any
+Depends: wget, curl
+Description: Discord on Linux is a terrible experience. It's a hassle to have to reinstall every time there's a new version.
