@@ -1,6 +1,6 @@
 # Discord On Linux
 
-### NO MORE SUFFERING WITH THIS SCREEN!
+### No More **SUFFERING** With This Screen!
 ![Alt text](discord_img.png)
 
 #### Using Discord from Linux is a terrible experience.
