@@ -1,3 +1,39 @@
+discord-on-linux (1.1.4.2~xenial) xenial; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
+discord-on-linux (1.1.4.2~trusty) trusty; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
+discord-on-linux (1.1.4.2~bionic) bionic; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
+discord-on-linux (1.1.4.2~focal) focal; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
+discord-on-linux (1.1.4.2~noble) noble; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
+discord-on-linux (1.1.4.2~jammy) jammy; urgency=medium
+
+  * Fix typo
+
+ -- Seokil Kang <seokil.kang628@gmail.com>  Sat, 04 Jan 2025 20:29:23 +0900
+
 discord-on-linux (1.1.4.1~jammy) jammy; urgency=medium
 
   * Rebuilt for Ubuntu 22.04

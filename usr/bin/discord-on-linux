@@ -23,7 +23,7 @@ LATEST_VERSION=$(curl -sI "$DISCORD_URL" | grep -i "location" | sed -E 's/.*disc
 echo "current : $CURRENT_VERSION, latest : $LATEST_VERSION"
 
 if [ "$CURRENT_VERSION" != "$LATEST_VERSION" ]; then
-    echo "A new Discord is avaliable. Starting updte..."
+    echo "A new Discord is avaliable. Starting update..."
     
     TMP_DIR=$(mktemp -d)
     
