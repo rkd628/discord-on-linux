@@ -5,7 +5,9 @@
 
 #### Using Discord from Linux is a terrible experience.
 Because, It has to reinstall every time whenever release new update version of discord. It's very HASSLE!   
-Now, let's escape from that HASSLE thing!
+Now, let's escape from that HASSLE thing!   
+
+This script consists of commands that automatically update and run a new version of discord when there is one.
 
 # Getting Start
 
